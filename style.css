@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    margin: 0;
+    font-family: Roboto,arial,sans-serif;
+    font-size: 14px;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.material-icons {
+    color: #9aa0a6;
+}
+.footer-link {
+    color: #70757a;
+}

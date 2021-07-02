@@ -2,18 +2,21 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Google</title>     
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Google</title>
     </head>
     <body>
         <nav>
-            <div>
+            <div class="tllinks">
                 <a href="#">About</a>
                 <a href="#">Store</a>
             </div>
-            <div>
+            <div class="trlinks">
                 <a href="#">Gmail</a>
                 <a href="#">Images</a>
-                <a href="#"><div onclick="myMenu()" class="menu gsprite"></div></a>
+                <a href="#"><i class="material-icons" style="color:#5f6368;">apps</i></a>
                 <a href="#" id="login"><div></div></a>
             </div>
         </nav>
@@ -22,21 +25,22 @@
         </img>
         <div>
             <form>
-                <div class="search_icon gsprite"></div>
+                <span class="material-icons">search</span>
                 <input type="text" name="search" id="search">
+                <a href="#"><img src="images/Google_mic.svg.png></a>
                 <div class="search-buttons">
                     <button class="button-search">Google search</button>
                     <button class="button-search">I'm Feeling Lucky</button>
                   </div>
             </form>
         </div>
-        <footer class="footer">
-            <div class="left-section">
+        <footer>
+            <div class="bllinks"></div>
               <a class="footer-link" href="#">Advertising</a>
               <a class="footer-link" href="#">Business</a>
               <a class="footer-link" href="#">How Search works</a>
             </div>
-            <div class="right-section">
+            <div class="brlinks">
               <a class="footer-link" href="#">Privacy</a>
               <a class="footer-link" href="#">Terms</a>
               <a class="footer-link" href="#">Settings</a>

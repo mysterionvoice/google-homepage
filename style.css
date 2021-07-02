@@ -11,6 +11,38 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.signin {
+    background-color: #1a73e8;
+    text-align: center;
+    color: #fff;
+    font-family: Roboto,arial,sans-serif;
+}
+.search-box {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+}
+input {
+    border: none;
+}
+#search:hover, #search:active, #search:focus{
+    box-shadow: 0px 1.7px 5px #dfdfdf;;
+    outline: none;
+}
+.mic {
+    height: 19px;
+    width : 14px;
+}
+button {
+    border: none;
+    font-family: Roboto,arial,sans-serif;
+    cursor: pointer;
+}
 .material-icons {
     color: #9aa0a6;
 }
